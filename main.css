@@ -1,0 +1,65 @@
+body {
+  background-image: url('/sprint/mines.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  background-color: rgb(175, 106, 106);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+}
+
+.hidden {
+  background-color: wheat;
+  color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.restart {
+  margin: auto;
+  margin-top: 10px;
+  border: black solid;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+  height: 50px;
+  font-size: larger;
+}
+
+.easy {
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: black solid;
+  cursor: pointer;
+}
+
+.hard {
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: black solid;
+  cursor: pointer;
+}
+
+.extreme {
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: black solid;
+  cursor: pointer;
+}
+
+h3 span {
+  color: black;
+}
